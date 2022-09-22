@@ -1,6 +1,7 @@
 import pymongo
 
-client = pymongo.MongoClient("mongodb://localhost:27017/")
+client = pymongo.MongoClient("mongodb+srv://hajarkhalil95:7430897@nolove@cluster0.27fyhgo.mongodb.net/?retryWrites=true&w=majority")
+
 db = client["Tredingdb"]
 mycol_24hrTicker = db["ticker24h"]
 
